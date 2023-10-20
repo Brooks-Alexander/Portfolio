@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ea6f5af4.css",
+    "main.js": "/Portfolio/static/js/main.275bd8bb.js",
+    "static/js/787.b158a326.chunk.js": "/Portfolio/static/js/787.b158a326.chunk.js",
+    "static/media/saint-louis.jpeg": "/Portfolio/static/media/saint-louis.8f253bd9759d5dc30905.jpeg",
+    "static/media/logo-a.png": "/Portfolio/static/media/logo-a.2887f7714896258dbf7e.png",
+    "static/media/rolla.jpeg": "/Portfolio/static/media/rolla.8135e80971fda1d941d5.jpeg",
+    "static/media/utp.jpeg": "/Portfolio/static/media/utp.cf381cd8e6cff8e20621.jpeg",
+    "static/media/calw.jpeg": "/Portfolio/static/media/calw.5de0d8cb07d715ba2cc9.jpeg",
+    "static/media/dallas.jpeg": "/Portfolio/static/media/dallas.a7950c80929235d9785c.jpeg",
+    "static/media/logo_sub.png": "/Portfolio/static/media/logo_sub.a2656c310f42390f3868.png",
+    "static/media/helvetica-neu.ttf": "/Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Portfolio/index.html",
+    "main.ea6f5af4.css.map": "/Portfolio/static/css/main.ea6f5af4.css.map",
+    "main.275bd8bb.js.map": "/Portfolio/static/js/main.275bd8bb.js.map",
+    "787.b158a326.chunk.js.map": "/Portfolio/static/js/787.b158a326.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea6f5af4.css",
+    "static/js/main.275bd8bb.js"
+  ]
+}
