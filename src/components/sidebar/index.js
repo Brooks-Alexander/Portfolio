@@ -33,22 +33,22 @@ export default function Sidebar () {
             <ul>
                 <li>
                     <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/alexander-brooks-number-one/'>
-                    <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
+                        <FontAwesomeIcon className='anchor-icon' icon={faLinkedin} color='#4d4d4e' />
                     </a>
                 </li>
                 <li>
                     <a target='_blank' rel='noreferrer' href='https://github.com/Brooks-Alexander'>
-                    <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
+                    <FontAwesomeIcon className='anchor-icon' icon={faGithub} color='#4d4d4e' />
                     </a>
                 </li>
                 <li>
                     <a target='_blank' rel='noreferrer' href='https://www.youtube.com/channel/UC1OjfYlzSXYI1ifRA91q7jg'>
-                    <FontAwesomeIcon icon={faYoutube} color='#4d4d4e' />
+                    <FontAwesomeIcon className='anchor-icon' icon={faYoutube} color='#4d4d4e' />
                     </a>
                 </li>
                 <li>
                     <a target='_blank' rel='noreferrer' href='https://knowwhereusa.blog/'>
-                    <FontAwesomeIcon icon={faWordpress} color='#4d4d4e' />
+                    <FontAwesomeIcon className='anchor-icon' icon={faWordpress} color='#4d4d4e' />
                     </a>
                 </li>
             </ul>

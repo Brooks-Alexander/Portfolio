@@ -1,10 +1,19 @@
 import { useState, useEffect, useRef } from 'react';
-import './index.scss';
 import Loader from 'react-loaders';
+import { MapContainer, TileLayer, Marker, Popup  } from 'react-leaflet';
 import AnimatedLetters from '../AnimatedLetters/index';
 import emailjs from '@emailjs/browser';
-import { MapContainer, Popup, TileLayer, Marker  } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
+import './index.scss';
+import L from 'leaflet';
+
+delete L.Icon.Default.prototype._getIconUrl;
+
+L.Icon.Default.mergeOptions({
+    iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+    iconUrl: require('leaflet/dist/images/marker-icon.png'),
+    shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+});
 
 
 export default function Contact() {
@@ -95,8 +104,10 @@ export default function Contact() {
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" 
                         />
                         <Marker position={[48.716667, 8.733333]}>
-                            <Popup>
-                                I Live here.
+                            <Popup className='popup'>
+                                I live in the area. 
+                                <br />
+                                Let's get coffee!
                             </Popup>
                         </Marker>
                     </MapContainer>

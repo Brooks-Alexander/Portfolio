@@ -15,7 +15,7 @@ export default function Dashboard() {
             } else {
                 setUser(null);
             }
-        });
+        })
     }, []);
     
     return (
