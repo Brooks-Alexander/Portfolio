@@ -1,4 +1,4 @@
-.nav-bar {
+.upper-side-bar {
   background: #181818;
   width: 60px;
   height: 100%;
@@ -106,48 +106,38 @@
     }
   }
 
-  ul {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
+  .footer {
     display: block;
-    padding: 0;
-    list-style: none;
     text-align: center;
-    margin: 0;
+    position: absolute;
+    height: 210px;
+    top: 50%;
+    margin-top: -120px;
+    width: 100%;
+    z-index: 3;
 
-    .logo {
-    display: block;
-    padding: 8px 0;
-
-    img {
-      display: block;
-      margin: 8px auto;
-      width: 24px;
-      height: auto;
-
-      &.sub-logo {
-        width: 50px;
-      }
+    .footer-links {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #262626;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 0;
+    }
+    
+    .footer-links li {
+      margin: 0 1rem;
+    }
+    
+    .footer-links a {
+      color: #fff;
     }
   }
 
-    li {
-      a {
-        padding: 7px 0;
-        display: block;
-        font-size: 15px;
-        line-height: 16px;
-        color: #4d4d4e;
-      }
-
-      &:hover {
-        .anchor-icon {
-          color: #ffd700;
-        }
-      }
-    }
-  }
 }
 
 .hamburger-icon, .close-icon {
@@ -156,7 +146,7 @@
 
 
 @media screen and (max-width: 1200px) {
-  .nav-bar { 
+  .upper-side-bar { 
     width: 100%;
     background: #181818;
     position: relative;
@@ -199,9 +189,50 @@
     
     }
 
-    ul {
-      display: none;
-    }
+    
+  }
+
+  .footer-links {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #262626;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .footer-links li {
+    margin: 0 1rem;
+  }
+  
+  .footer-links a {
+    color: #fff;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .footer-links {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #262626;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .footer-links li {
+    margin: 0 1rem;
+  }
+  
+  .footer-links a {
+    color: #fff;
+  }
+}
