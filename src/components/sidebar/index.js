@@ -8,7 +8,8 @@ import { faLinkedin, faGithub, faYoutube, faWordpress } from '@fortawesome/free-
 
 export default function Sidebar () {
     return (
-        <div className='nav-bar'>
+    <div className='side-bar'>
+        <div className='upper-side-bar'>
             <Link className='logo' to='/'>
                 <img src={LogoA} alt='logo' />
                 <img className='sub-logo' src={LogoSubtitle} alt='alex' />
@@ -30,7 +31,9 @@ export default function Sidebar () {
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
             </NavLink>
             </nav>
-            <ul>
+        </div>
+        <div className ='footer'>
+            <ul className='footer-links'>
                 <li>
                     <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/alexander-brooks-number-one/'>
                         <FontAwesomeIcon className='anchor-icon' icon={faLinkedin} color='#4d4d4e' />
@@ -53,5 +56,6 @@ export default function Sidebar () {
                 </li>
             </ul>
         </div>
+    </div>
     )
 }
