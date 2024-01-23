@@ -51,7 +51,7 @@
             opacity: 0;
             height: 40px;
             animation: rotateIn 1s linear both;
-            animation-delay: 1.4s;
+            animation-delay: 0.3s;
         }
 
         .mobile-text {
@@ -157,6 +157,7 @@
       display: block;
       margin: 20px auto 0 auto;
       width: 124px;
+      text-align: center;
     }
   
     .logo-container {

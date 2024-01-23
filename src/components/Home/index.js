@@ -5,9 +5,6 @@ import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import Slideshow from './Slideshow/index';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub, faYoutube, faWordpress } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
 
@@ -48,15 +45,11 @@ export default function Home() {
                     </div>
                     <div className='mobile-h1-title'>
                         <h1>
-                            Hi,
-                            <br />
-                            I'm Alexander,
-                            <br />
-                            Engineer & Web Developer.
+                            Alexander Brooks
                         </h1>
                     </div>
                     <div className='h2-container'>    
-                        <h2>Engineering Graduate/ Frontend Developer/ Aspiring Full Stack Developer</h2>
+                        <h2>Engineer & Developer</h2>
                     </div>
                     <Link to='/contact' className='flat-button'>CONTACT ME</Link>
                 </div>
