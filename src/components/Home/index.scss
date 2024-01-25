@@ -91,6 +91,11 @@
 
 @media screen and (max-width: 1200px) {
 
+    .home-page {
+        display: flex;
+        flex-direction: column;
+    }
+
     .tags,
     .home-page h1:before,
     .home-page h1:after {
@@ -104,6 +109,10 @@
       transform: none;
       padding: 10px;
       box-sizing: border-box;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      flex-direction: column;
       
 
         .desktop-h1-title {
@@ -115,17 +124,15 @@
         }
 
         h1 {
-            font-size: 5vw;
+            font-size: 10vw;
         }
         
         .h2-container {
-            display: block;
-            inline-size: 346px;
             overflow: hidden;
-            height: auto;
 
             h2 {
-                font-size: 3vw;
+                font-size: 5vw;
+                margin: auto;
             }
         }
 
@@ -178,5 +185,9 @@
       bottom: auto;
       left: 0;
       margin: auto;
+    }
+
+    Slideshow {
+        order: 1;
     }
 }

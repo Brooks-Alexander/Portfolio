@@ -46,8 +46,16 @@
 }
 
 
-@media (max-width: 1400px) {
+@media (min-width: 1121px) and (max-width: 1400px) {
     .slides {
       display: none;
+    }
+}
+
+@media (max-width: 1120px) {
+    .slides {
+        
+        margin-top: 2rem;
+      transform: scale(0.8);
     }
 }
