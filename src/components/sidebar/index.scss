@@ -168,6 +168,9 @@
       text-align: center;
       transition: all 1.2s ease-in-out;
       height: auto;
+      position: sticky;
+      top: 0;
+      z-index: 2;
 
     .logo {
         padding: 4px 0;

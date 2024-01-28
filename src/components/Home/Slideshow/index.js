@@ -1,4 +1,4 @@
-import './index.scss'
+import './index.scss';
 import stl from '../../../assets/images/saint-louis.jpeg';
 import rolla from "../../../assets/images/rolla.jpeg";
 import utp from "../../../assets/images/utp.jpeg";
@@ -32,5 +32,5 @@ export default function Slideshow() {
             </div>
 
         </div>
-    )
-}
+    );
+};

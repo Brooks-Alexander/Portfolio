@@ -1,7 +1,7 @@
 import LogoTitle from '../../assets/images/logo-a.png';
 import { Link } from 'react-router-dom';
 import './index.scss';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import Slideshow from './Slideshow/index';
@@ -25,7 +25,7 @@ export default function Home() {
     return (
         <>
             <div className="container home-page">
-                <div className='text-zone'>
+                <div className='text-zone' >
                     <div className='desktop-h1-title'>
                         <h1>
                             <span className={letterClass}>H</span>
@@ -53,7 +53,9 @@ export default function Home() {
                     </div>
                     <Link to='/contact' className='flat-button'>CONTACT ME</Link>
                 </div>
-                <Slideshow />
+                <div className='slideshow'>
+                    <Slideshow />
+                </div>
             </div>
             <Loader type='ball-scale-multiple' />
         </>

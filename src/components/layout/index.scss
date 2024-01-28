@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  align-items: center;
 }
 
 .top-tags {
@@ -155,9 +156,10 @@
   }
 
   .stage-cube-cont {
-    position: initial;
+    position: relative;
     width: 100%;
     height: 0%;
     overflow: visible;
+    z-index: 0;
   }
 }
