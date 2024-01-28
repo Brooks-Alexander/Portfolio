@@ -49,6 +49,9 @@ export default function Home() {
                         </h1>
                     </div>
                     <div className='h2-container'>    
+                        <h2>Be bold. Be courageous.</h2>
+                    </div>
+                    <div className='mobile-h2-container'>    
                         <h2>Engineer & Developer</h2>
                     </div>
                     <Link to='/contact' className='flat-button'>CONTACT ME</Link>

@@ -3,6 +3,7 @@
   height: 100%;
   position: absolute;
   align-items: center;
+  overflow: hidden;
 }
 
 .top-tags {
@@ -118,6 +119,7 @@
 @media screen and (max-width: 1200px) {
   .page {
     position: initial;
+    overflow: visible;
   }
 
   .container {
