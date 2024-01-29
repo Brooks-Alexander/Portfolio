@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ea6f5af4.css",
-    "main.js": "/Portfolio/static/js/main.275bd8bb.js",
+    "main.css": "/Portfolio/static/css/main.b58f95df.css",
+    "main.js": "/Portfolio/static/js/main.9d303db2.js",
     "static/js/787.b158a326.chunk.js": "/Portfolio/static/js/787.b158a326.chunk.js",
     "static/media/saint-louis.jpeg": "/Portfolio/static/media/saint-louis.8f253bd9759d5dc30905.jpeg",
     "static/media/logo-a.png": "/Portfolio/static/media/logo-a.2887f7714896258dbf7e.png",
@@ -14,12 +14,12 @@
     "static/media/LaBelleAurore.woff2": "/Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Portfolio/index.html",
-    "main.ea6f5af4.css.map": "/Portfolio/static/css/main.ea6f5af4.css.map",
-    "main.275bd8bb.js.map": "/Portfolio/static/js/main.275bd8bb.js.map",
+    "main.b58f95df.css.map": "/Portfolio/static/css/main.b58f95df.css.map",
+    "main.9d303db2.js.map": "/Portfolio/static/js/main.9d303db2.js.map",
     "787.b158a326.chunk.js.map": "/Portfolio/static/js/787.b158a326.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea6f5af4.css",
-    "static/js/main.275bd8bb.js"
+    "static/css/main.b58f95df.css",
+    "static/js/main.9d303db2.js"
   ]
 }
